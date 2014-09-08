@@ -7,10 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LeftMenuViewController.h"
+#import "RightMenuViewController.h"
 
-@interface MenuManagerViewController : UIViewController
+@interface MenuManagerViewController : NSObject
+
+@property (nonatomic, weak) UIViewController*               parentViewController;
+@property (nonatomic, weak) LeftMenuViewController  *       leftViewController;
+@property (nonatomic, weak) RightMenuViewController *       rightViewController;
 
 -(void) openLeftMenu;
+-(void) hideLeftMenu;
+
 -(void) openRightMenu;
+-(void) hideRightMenu;
+
+- (instancetype)initWithParentViewController:(UIViewController*)parent;
 
 @end

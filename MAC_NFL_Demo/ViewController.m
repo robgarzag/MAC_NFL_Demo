@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     [self.webview setupWithYouTubeURL:@"http://www.youtube.com/embed/e2w8z6mI47U"];
-    self.menuManager = [[MenuManagerViewController alloc] init];
+    self.menuManager = [[MenuManagerViewController alloc] initWithParentViewController:self];
     [self.navItem setLeftBarButtonItem:[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self.menuManager action:@selector(openLeftMenu)]];
     [self.navItem setRightBarButtonItem:[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self.menuManager action:@selector(openRightMenu)]];
 }

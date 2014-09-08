@@ -14,44 +14,95 @@
 
 @implementation MenuManagerViewController
 
--(void) openLeftMenu
+//ChildViewControllers https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/CreatingCustomContainerViewControllers/CreatingCustomContainerViewControllers.html
+
+- (instancetype)initWithParentViewController:(UIViewController*)parent
 {
-    NSLog(@"left");
-}
--(void) openRightMenu
-{
-    NSLog(@"right");
-}
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
+    self = [super init];
+    if (self)
+    {
+        self.parentViewController =parent;
     }
     return self;
 }
 
-- (void)viewDidLoad
+-(void) addChildViewController:(UIViewController*) childController
 {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self.parentViewController addChildViewController:childController];
+    [self.parentViewController.view addSubview:childController.view];
+    [childController didMoveToParentViewController:self.parentViewController];
 }
 
-- (void)didReceiveMemoryWarning
+-(void) removeChildViewController:(UIViewController*) childController
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [childController willMoveToParentViewController:nil];
+    [childController.view removeFromSuperview];
+    [childController removeFromParentViewController];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+-(void) openLeftMenu
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if (self.rightViewController)
+    {
+        [self hideRightMenu];
+        return;
+    }
+    if (self.leftViewController)
+    {
+        [self hideLeftMenu];
+        return;
+    }
+    self.leftViewController =  [self.parentViewController.storyboard instantiateViewControllerWithIdentifier:@"LeftMenuViewController"];
+    self.leftViewController.view.frame = CGRectMake(-250, 64, 250, [UIScreen mainScreen].bounds.size.height);
+    [self addChildViewController:self.leftViewController];
+    [UIView animateWithDuration:0.4 animations:^{
+        self.leftViewController.view.frame =CGRectMake(0, 64, 250, [UIScreen mainScreen].bounds.size.height);
+    }];
 }
-*/
+
+-(void) hideLeftMenu
+{
+    [UIView animateWithDuration:0.4 animations:^
+    {
+        self.leftViewController.view.frame =CGRectMake(-250, 64, 250, [UIScreen mainScreen].bounds.size.height);
+    } completion:^(BOOL finished)
+    {
+           [self removeChildViewController:self.leftViewController];
+    }];
+}
+
+-(void) openRightMenu
+{
+    if (self.leftViewController)
+    {
+        [self hideLeftMenu];
+        return;
+    }
+    if (self.rightViewController)
+    {
+        [self hideRightMenu];
+        return;
+    }
+    self.rightViewController =  [self.parentViewController.storyboard instantiateViewControllerWithIdentifier:@"RightMenuViewController"];
+    self.rightViewController.view.frame = CGRectMake([UIScreen mainScreen].bounds.size.width, 64, 250, [UIScreen mainScreen].bounds.size.height);
+    [self addChildViewController:self.rightViewController];
+    [UIView animateWithDuration:0.4 animations:^
+    {
+        self.rightViewController.view.frame = CGRectMake([UIScreen mainScreen].bounds.size.width -250, 64, 250, [UIScreen mainScreen].bounds.size.height);
+    }];
+    [self addChildViewController:self.rightViewController];
+}
+
+-(void) hideRightMenu
+{
+    [UIView animateWithDuration:0.4 animations:^
+     {
+        self.rightViewController.view.frame = CGRectMake([UIScreen mainScreen].bounds.size.width, 64, 250, [UIScreen mainScreen].bounds.size.height);
+     } completion:^(BOOL finished)
+     {
+         [self removeChildViewController:self.rightViewController];
+     }];
+}
+
 
 @end
