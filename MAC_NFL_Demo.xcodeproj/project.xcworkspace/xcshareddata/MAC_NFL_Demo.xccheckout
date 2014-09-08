@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AB80DFA6-1520-476D-B962-3CBAFBB14464</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MAC_NFL_Demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E90A2320-D370-4530-B957-030BDBC443D0</key>
+		<string>https://github.com/robgarzag/MAC_NFL_Demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MAC_NFL_Demo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E90A2320-D370-4530-B957-030BDBC443D0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/robgarzag/MAC_NFL_Demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E90A2320-D370-4530-B957-030BDBC443D0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E90A2320-D370-4530-B957-030BDBC443D0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MAC_NFL_Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

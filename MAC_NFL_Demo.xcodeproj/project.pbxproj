@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2653A29019BDE213005628E0 /* GameStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 2653A28F19BDE213005628E0 /* GameStats.m */; };
 		E14E30C419BBCCB200F6693A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14E30C319BBCCB200F6693A /* Foundation.framework */; };
 		E14E30C619BBCCB200F6693A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14E30C519BBCCB200F6693A /* CoreGraphics.framework */; };
 		E14E30C819BBCCB200F6693A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14E30C719BBCCB200F6693A /* UIKit.framework */; };
@@ -32,7 +33,6 @@
 		E1B45D6419BBE3A600266893 /* Players.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1B45D6319BBE3A600266893 /* Players.plist */; };
 		E1B45D6719BD58A200266893 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D6619BD58A200266893 /* Player.m */; };
 		E1B45D6D19BD592800266893 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D6C19BD592800266893 /* Game.m */; };
-		E1B45D7019BD5A0500266893 /* GameStats.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D6F19BD5A0500266893 /* GameStats.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2653A28E19BDE213005628E0 /* GameStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStats.h; sourceTree = "<group>"; };
+		2653A28F19BDE213005628E0 /* GameStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStats.m; sourceTree = "<group>"; };
 		E14E30C019BBCCB200F6693A /* MAC_NFL_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAC_NFL_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14E30C319BBCCB200F6693A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E14E30C519BBCCB200F6693A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -84,8 +86,6 @@
 		E1B45D6619BD58A200266893 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		E1B45D6B19BD592800266893 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		E1B45D6C19BD592800266893 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
-		E1B45D6E19BD5A0500266893 /* GameStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameStats.h; path = ../GameStats.h; sourceTree = "<group>"; };
-		E1B45D6F19BD5A0500266893 /* GameStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameStats.m; path = ../GameStats.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +195,8 @@
 				E1B45D6119BBD77300266893 /* Games.plist */,
 				E1B45D6B19BD592800266893 /* Game.h */,
 				E1B45D6C19BD592800266893 /* Game.m */,
-				E1B45D6E19BD5A0500266893 /* GameStats.h */,
-				E1B45D6F19BD5A0500266893 /* GameStats.m */,
+				2653A28E19BDE213005628E0 /* GameStats.h */,
+				2653A28F19BDE213005628E0 /* GameStats.m */,
 			);
 			name = "Left Menu";
 			sourceTree = "<group>";
@@ -337,7 +337,7 @@
 				E1B45D6019BBD6E800266893 /* MyPlayerViewController.m in Sources */,
 				E1B45D6719BD58A200266893 /* Player.m in Sources */,
 				E1B45D4B19BBD3BD00266893 /* YouTubeWebView.m in Sources */,
-				E1B45D7019BD5A0500266893 /* GameStats.m in Sources */,
+				2653A29019BDE213005628E0 /* GameStats.m in Sources */,
 				E1B45D5A19BBD62100266893 /* LeftMenuViewController.m in Sources */,
 				E14E30D419BBCCB200F6693A /* AppDelegate.m in Sources */,
 				E1B45D5D19BBD6D500266893 /* StatsViewController.m in Sources */,
