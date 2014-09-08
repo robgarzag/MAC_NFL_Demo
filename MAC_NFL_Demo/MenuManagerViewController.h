@@ -10,4 +10,7 @@
 
 @interface MenuManagerViewController : UIViewController
 
+-(void) openLeftMenu;
+-(void) openRightMenu;
+
 @end

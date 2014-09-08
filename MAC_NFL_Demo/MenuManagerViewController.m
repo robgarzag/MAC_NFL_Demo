@@ -14,6 +14,14 @@
 
 @implementation MenuManagerViewController
 
+-(void) openLeftMenu
+{
+    NSLog(@"left");
+}
+-(void) openRightMenu
+{
+    NSLog(@"right");
+}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "YouTubeWebView.h"
+#import "MenuManagerViewController.h"
 
 @interface ViewController : UIViewController
 
-@property (nonatomic, assign) IBOutlet YouTubeWebView* webview;
+@property (nonatomic, weak) IBOutlet YouTubeWebView* webview;
+@property (nonatomic, strong) MenuManagerViewController* menuManager;
+@property (nonatomic, weak) IBOutlet UINavigationBar* navBar;
+@property (nonatomic, weak) IBOutlet UINavigationItem* navItem;
 @end

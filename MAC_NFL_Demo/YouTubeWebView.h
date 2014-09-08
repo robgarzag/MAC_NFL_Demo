@@ -10,4 +10,6 @@
 
 @interface YouTubeWebView : UIWebView
 
+-(void) setupWithYouTubeURL:(NSString*)youTubeUrl;
+
 @end

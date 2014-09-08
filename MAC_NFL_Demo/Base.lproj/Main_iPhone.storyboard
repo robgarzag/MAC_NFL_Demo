@@ -13,14 +13,24 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" id="1vy-z8-5vI" customClass="YouTubeWebView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="380"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="366"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.22496041820000001" green="0.2760237123" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="kLN-Im-jFj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.47938660264981203" green="0.77472919597419054" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="NFL" id="Oe4-9v-c7m"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="navBar" destination="kLN-Im-jFj" id="dPj-4s-5tR"/>
+                        <outlet property="navItem" destination="Oe4-9v-c7m" id="600-CE-DuB"/>
                         <outlet property="webview" destination="1vy-z8-5vI" id="Lzz-UH-SDC"/>
                     </connections>
                 </viewController>
