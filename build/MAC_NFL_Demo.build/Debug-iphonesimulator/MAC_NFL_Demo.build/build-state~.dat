@@ -1,0 +1,166 @@
+TMAC_NFL_Demo
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/t6/x41_866909sc9hm7jp20z8gw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MAC_NFL_Demo-Prefix-atgmqqlicsffdfflnyfvjtguhhyg/MAC_NFL_Demo-Prefix.pch.pch MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000533B9F9C00000000000003B4
+t1396416412
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000533B9FA9000000000000019E
+t1396416425
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000533B6DFC0000000000000ADC
+t1396403708
+s2780
+
+N/Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch
+c00000000540B95320000000000000158
+t1410045234
+s344
+
+N/var/folders/t6/x41_866909sc9hm7jp20z8gw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MAC_NFL_Demo-Prefix-atgmqqlicsffdfflnyfvjtguhhyg/MAC_NFL_Demo-Prefix.pch.pch
+t2
+s0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/GameStats.m
+r0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/AppDelegate.m
+r0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/Game.m
+r0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/LeftMenuViewController.m
+r0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MenuManagerViewController.m
+r0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MyPlayerViewController.m
+r0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/Player.m
+r0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/RightMenuViewController.m
+r0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/StatsViewController.m
+r0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/ViewController.m
+r0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/YouTubeWebView.m
+r0
+
+CBuild AST from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6075ac346cbdb941^5cacc0346cbdb941^---0#1#1#--18"Check dependencies36"51211C12-7813-450A-B178-F77066EBFF06-
+
+CCompileAssetCatalog /Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/Debug-iphonesimulator/MAC_NFL_Demo.app /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/Images.xcassets
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/AppDelegate.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/Game.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/Game.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/GameStats.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/GameStats.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/LeftMenuViewController.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/LeftMenuViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/MenuManagerViewController.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MenuManagerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/MyPlayerViewController.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MyPlayerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/Player.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/Player.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/RightMenuViewController.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/RightMenuViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/StatsViewController.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/StatsViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/ViewController.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/YouTubeWebView.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/YouTubeWebView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/Objects-normal/i386/main.o /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileStoryboard /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/Base.lproj/Main_iPad.storyboard
+r0
+
+CCompileStoryboard /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/Base.lproj/Main_iPhone.storyboard
+r0
+
+CCopyPlistFile /Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/Debug-iphonesimulator/MAC_NFL_Demo.app/Games.plist MAC_NFL_Demo/Games.plist
+r0
+
+CCopyPlistFile /Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/Debug-iphonesimulator/MAC_NFL_Demo.app/Players.plist MAC_NFL_Demo/Players.plist
+r0
+
+CCopyStringsFile /Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/Debug-iphonesimulator/MAC_NFL_Demo.app/en.lproj/InfoPlist.strings MAC_NFL_Demo/en.lproj/InfoPlist.strings
+r0
+
+CGenerateDSYMFile /Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/Debug-iphonesimulator/MAC_NFL_Demo.app.dSYM /Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/Debug-iphonesimulator/MAC_NFL_Demo.app/MAC_NFL_Demo
+r0
+
+CLd /Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/Debug-iphonesimulator/MAC_NFL_Demo.app/MAC_NFL_Demo normal i386
+r0
+
+CProcessInfoPlistFile /Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/Debug-iphonesimulator/MAC_NFL_Demo.app/Info.plist /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Info.plist
+r0
+
+CProcessPCH /Users/mobileappscompany/Library/Developer/Xcode/DerivedData/MAC_NFL_Demo-fvxcfuoufqinqbblrwvvqrdkxets/Index/PrecompiledHeaders/MAC_NFL_Demo-Prefix-ciuemncliwsojnfbchkgexkllayu_ast/MAC_NFL_Demo-Prefix.pch.pch MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/t6/x41_866909sc9hm7jp20z8gw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MAC_NFL_Demo-Prefix-atgmqqlicsffdfflnyfvjtguhhyg/MAC_NFL_Demo-Prefix.pch.pch MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431844404.753673
+e431844408.331103
+r0
+xProcessPCH
+x/var/folders/t6/x41_866909sc9hm7jp20z8gw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MAC_NFL_Demo-Prefix-atgmqqlicsffdfflnyfvjtguhhyg/MAC_NFL_Demo-Prefix.pch.pch
+xMAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch
+oWhile building module 'UIKit' imported from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch:14:
+oIn file included from <module-includes>:1:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:14:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityViewController.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:312:1: error: expected identifier or '('
+o2
+o^
+o1 error generated.
+o/Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch:14:13: fatal error: could not build module 'UIKit'
+o    #import <UIKit/UIKit.h>
+o     ~~~~~~~^
+o2 errors generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch310"ProcessPCH /var/folders/t6/x41_866909sc9hm7jp20z8gw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MAC_NFL_Demo-Prefix-atgmqqlicsffdfflnyfvjtguhhyg/MAC_NFL_Demo-Prefix.pch.pch MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2909c1346cbdb941^94c254386cbdb941^-1037"While building module 'UIKit' imported from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch:14:In file included from <module-includes>:1:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:14:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h:312:1: error: expected identifier or '('2^1 error generated./Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch:14:13: fatal error: could not build module 'UIKit'    #import <UIKit/UIKit.h>     ~~~~~~~^2 errors generated.2(36%IDEClangDiagnosticActivityLogMessage2@26"Expected identifier or '('-431844408#18446744073709551615#0#4(2@130"While building module 'UIKit' imported from /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch:14:-431844408#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@89"file:///Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch0000000000000000^13#12#13#12#283#0#21"Apple LLVM 5.1 Notice--2@42"In file included from <module-includes>:1:-431844408#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@74"file:///Users/mobileappscompany/Desktop/MAC_NFL_Demo/%3Cmodule-includes%3E0000000000000000^0#8#0#8#8#0#21"Apple LLVM 5.1 Notice--2@199"In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:14:-431844408#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@180"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h0000000000000000^13#8#13#8#313#0#21"Apple LLVM 5.1 Notice--2@217"In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityViewController.h:9:-431844408#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@199"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityViewController.h0000000000000000^8#8#8#8#150#0#21"Apple LLVM 5.1 Notice--2#27"com.apple.dt.IDE.diagnostic3@191"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h0000000000000000^311#0#311#0#17726#0#11"Parse Issue--2@30"Could not build module 'UIKit'-431844408#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@89"file:///Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch0000000000000000^13#12#13#12#283#0#11"Parse Issue1(3@89"file:///Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch0000000000000000^13#5#13#13#276#7#-0#0#1#-19%DVTDocumentLocation4@89"file:///Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch0000000000000000^3843"ProcessPCH /var/folders/t6/x41_866909sc9hm7jp20z8gw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MAC_NFL_Demo-Prefix-atgmqqlicsffdfflnyfvjtguhhyg/MAC_NFL_Demo-Prefix.pch.pch MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mobileappscompany/Desktop/MAC_NFL_Demo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/mobileappscompany/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/MAC_NFL_Demo-generated-files.hmap -I/Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/MAC_NFL_Demo-own-target-headers.hmap -I/Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/MAC_NFL_Demo-all-target-headers.hmap -iquote /Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/MAC_NFL_Demo-project-headers.hmap -I/Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/DerivedSources/i386 -I/Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/MAC_NFL_Demo.build/Debug-iphonesimulator/MAC_NFL_Demo.build/DerivedSources -F/Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/t6/x41_866909sc9hm7jp20z8gw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MAC_NFL_Demo-Prefix-atgmqqlicsffdfflnyfvjtguhhyg/MAC_NFL_Demo-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/t6/x41_866909sc9hm7jp20z8gw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MAC_NFL_Demo-Prefix-atgmqqlicsffdfflnyfvjtguhhyg/MAC_NFL_Demo-Prefix.pch.d -c /Users/mobileappscompany/Desktop/MAC_NFL_Demo/MAC_NFL_Demo/MAC_NFL_Demo-Prefix.pch -o /var/folders/t6/x41_866909sc9hm7jp20z8gw0000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/MAC_NFL_Demo-Prefix-atgmqqlicsffdfflnyfvjtguhhyg/MAC_NFL_Demo-Prefix.pch.pch36"6B281DA8-D003-4CAC-A26E-F92F39747D41-
+bB9736621-545F-4033-8BCC-74C894406B5F
+
+CTouch /Users/mobileappscompany/Desktop/MAC_NFL_Demo/build/Debug-iphonesimulator/MAC_NFL_Demo.app
+r0
+

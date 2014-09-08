@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YouTubeWebView.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, assign) IBOutlet YouTubeWebView* webview;
 @end

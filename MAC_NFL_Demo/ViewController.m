@@ -16,10 +16,21 @@
 
 - (void)viewDidLoad
 {
-    NSLog(@"helloWorld");
     [super viewDidLoad];
+    [self.webview setBackgroundColor:[UIColor clearColor]];
+    NSString* html = @"<html> \
+    <head>\
+    <style type=\"text/css\">body {background-color: transparent;color: white;}</style>\
+    </head>\
+    <body style=\"margin:0\">\
+    <iframe src=\"http://www.youtube.com/embed/e2w8z6mI47U?playsinline=1&rel=0&showinfo=0\" width=\"320\" height=\"240\" frameborder=\"0\" allowfullscreen></iframe>\
+    </body>\
+    </html>";
+    [self.webview loadHTMLString:html baseURL:nil];
+    [self.webview setMediaPlaybackRequiresUserAction:NO];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
 
 - (void)didReceiveMemoryWarning
 {

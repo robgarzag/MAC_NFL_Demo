@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>statusTitle</key>
+		<string></string>
+		<key>localTeamImage</key>
+		<string></string>
+		<key>localTeamScore</key>
+		<string></string>
+		<key>visitorTeamImage</key>
+		<string></string>
+		<key>visitorTeamScore</key>
+		<string></string>
+		<key>youTubeLinkURL</key>
+		<string></string>
+		<key>stats</key>
+		<dict>
+			<key>first</key>
+			<string></string>
+			<key>third</key>
+			<string></string>
+			<key>rushingYards</key>
+			<string></string>
+			<key>pushingYards</key>
+			<string></string>
+			<key>interceptionYards</key>
+			<string></string>
+		</dict>
+	</dict>
+</array>
+</plist>
