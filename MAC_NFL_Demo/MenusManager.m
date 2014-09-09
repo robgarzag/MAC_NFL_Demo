@@ -1,23 +1,24 @@
 //
-//  MenuManagerViewController.m
+//  MenusManager.m
 //  MAC_NFL_Demo
 //
 //  Created by MobileAppsCompany on 9/6/14.
 //  Copyright (c) 2014 RGG. All rights reserved.
 //
 
-#import "MenuManagerViewController.h"
+#import "MenusManager.h"
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kNavBarHeight 64
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 #define kMenuWidth 250
-#define kAnimationDuration 0.4
-@interface MenuManagerViewController ()
+#define kAnimationDuration 0.2
+
+@interface MenusManager ()
 
 @end
 
-@implementation MenuManagerViewController
+@implementation MenusManager
 
 //ChildViewControllers https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/CreatingCustomContainerViewControllers/CreatingCustomContainerViewControllers.html
 

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Game.h"
 @interface NFLGameTableViewCell : UITableViewCell
 
 @property (nonatomic,weak) IBOutlet UILabel* localTeamScoreLbl;
@@ -16,4 +16,5 @@
 @property (nonatomic,weak) IBOutlet UIImageView* visitorTeamImg;
 @property (nonatomic,weak) IBOutlet UILabel* statusTitle;
 
+-(void) fillWithGame:(Game*)game;
 @end

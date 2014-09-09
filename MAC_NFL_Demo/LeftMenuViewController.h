@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "GamesManager.h"
 @interface LeftMenuViewController : UITableViewController
 
+@property (nonatomic, retain) NSMutableArray* games;
 @end

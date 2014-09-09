@@ -27,6 +27,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSArray* gamesDictionaryArray = [NSArray arrayWithContentsOfURL :[[NSBundle mainBundle]URLForResource:@"Games" withExtension:@".plist" ]];
+    self.games = [GamesManager gamesWithDictionaryArray:gamesDictionaryArray];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -53,18 +55,23 @@
 {
     if(section ==0) return 1;
     // Return the number of rows in the section.
-    return 15;
+    return self.games.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if (indexPath.section ==0)
+    {
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellSection0" forIndexPath:indexPath];
+        return cell;
+    }
     NFLGameTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell1" forIndexPath:indexPath];
-    
+    [cell fillWithGame:[self.games objectAtIndex:indexPath.row]];
     // Configure the cell...
-    
     return cell;
 }
+
 
 
 /*
@@ -96,6 +103,15 @@
 }
 */
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell* cell = nil;
+    if (indexPath.section ==0)
+        cell = [tableView dequeueReusableCellWithIdentifier:@"cellSection0"];
+    else
+        cell = [tableView dequeueReusableCellWithIdentifier:@"cell1"];
+    return   cell.frame.size.height;
+}
 
 // Override to support conditional rearranging of the table view.
 - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath

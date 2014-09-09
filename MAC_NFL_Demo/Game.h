@@ -19,4 +19,6 @@
 @property(nonatomic, strong) NSString* youTubeLinkURL;
 @property(nonatomic,strong) GameStats* stats;
 
+-(id)initWithDictionary:(NSDictionary*)dictionary;
+
 @end

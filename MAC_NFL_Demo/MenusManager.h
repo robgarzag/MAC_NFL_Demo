@@ -1,5 +1,5 @@
 //
-//  MenuManagerViewController.h
+//  MenusManager.h
 //  MAC_NFL_Demo
 //
 //  Created by MobileAppsCompany on 9/6/14.
@@ -10,7 +10,7 @@
 #import "LeftMenuViewController.h"
 #import "RightMenuViewController.h"
 
-@interface MenuManagerViewController : NSObject
+@interface MenusManager : NSObject
 
 @property (nonatomic, weak) UIViewController*               parentViewController;
 @property (nonatomic, weak) LeftMenuViewController  *       leftViewController;

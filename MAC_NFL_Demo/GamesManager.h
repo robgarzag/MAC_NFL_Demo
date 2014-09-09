@@ -13,4 +13,7 @@
 
 @property(nonatomic, strong) NSMutableArray* games;
 
++(NSMutableArray*) gamesWithDictionaryArray:(NSArray*) array;
+- (instancetype)initWithPlistUrl:(NSString*)plistURL;
+
 @end

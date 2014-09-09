@@ -10,14 +10,27 @@
 
 @implementation GamesManager
 
-+(NSMutableArray*) gamesWithDictionaryArrays:(NSArray*) array
++(NSMutableArray*) gamesWithDictionaryArray:(NSArray*) array
 {
     NSMutableArray * mutableArray = [[NSMutableArray alloc] init];
     for (NSDictionary* dict in array)
     {
-        //
+        Game* game = [[Game alloc] initWithDictionary:dict];
+        [mutableArray addObject:game];
     }
     return mutableArray;
 }
+
+- (instancetype)initWithPlistUrl:(NSString*)plistURL
+{
+    self = [super init];
+    if (self)
+    {
+        NSArray* array = [NSArray arrayWithContentsOfFile:plistURL];
+        self.games = [GamesManager gamesWithDictionaryArray:array];
+    }
+    return self;
+}
+
 
 @end

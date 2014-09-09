@@ -21,6 +21,8 @@
 		2618D68219BEACD8009BBFBC /* GamesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2618D68119BEACD8009BBFBC /* GamesManager.m */; };
 		2653A29019BDE213005628E0 /* GameStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 2653A28F19BDE213005628E0 /* GameStats.m */; };
 		2653A29319BE548B005628E0 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2653A29219BE548B005628E0 /* LeftMenuViewController.m */; };
+		268DFFFA19BF484500D13607 /* MenusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DFFF919BF484500D13607 /* MenusManager.m */; };
+		268DFFFC19BF4F9700D13607 /* logoNFL.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DFFFB19BF4F9700D13607 /* logoNFL.png */; };
 		E14E30C419BBCCB200F6693A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14E30C319BBCCB200F6693A /* Foundation.framework */; };
 		E14E30C619BBCCB200F6693A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14E30C519BBCCB200F6693A /* CoreGraphics.framework */; };
 		E14E30C819BBCCB200F6693A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14E30C719BBCCB200F6693A /* UIKit.framework */; };
@@ -37,7 +39,6 @@
 		E14E30F019BBCCB200F6693A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E14E30EE19BBCCB200F6693A /* InfoPlist.strings */; };
 		E14E30F219BBCCB200F6693A /* MAC_NFL_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E14E30F119BBCCB200F6693A /* MAC_NFL_DemoTests.m */; };
 		E1B45D4B19BBD3BD00266893 /* YouTubeWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D4A19BBD3BD00266893 /* YouTubeWebView.m */; };
-		E1B45D5119BBD4B500266893 /* MenuManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D5019BBD4B500266893 /* MenuManagerViewController.m */; };
 		E1B45D5419BBD56100266893 /* RightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D5319BBD56100266893 /* RightMenuViewController.m */; };
 		E1B45D5D19BBD6D500266893 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D5C19BBD6D500266893 /* StatsViewController.m */; };
 		E1B45D6019BBD6E800266893 /* MyPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D5F19BBD6E800266893 /* MyPlayerViewController.m */; };
@@ -76,6 +77,9 @@
 		2653A28F19BDE213005628E0 /* GameStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStats.m; sourceTree = "<group>"; };
 		2653A29119BE548B005628E0 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
 		2653A29219BE548B005628E0 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		268DFFF819BF484500D13607 /* MenusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenusManager.h; sourceTree = "<group>"; };
+		268DFFF919BF484500D13607 /* MenusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenusManager.m; sourceTree = "<group>"; };
+		268DFFFB19BF4F9700D13607 /* logoNFL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoNFL.png; sourceTree = "<group>"; };
 		E14E30C019BBCCB200F6693A /* MAC_NFL_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAC_NFL_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14E30C319BBCCB200F6693A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E14E30C519BBCCB200F6693A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,8 +102,6 @@
 		E14E30F119BBCCB200F6693A /* MAC_NFL_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAC_NFL_DemoTests.m; sourceTree = "<group>"; };
 		E1B45D4919BBD3BD00266893 /* YouTubeWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeWebView.h; sourceTree = "<group>"; };
 		E1B45D4A19BBD3BD00266893 /* YouTubeWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeWebView.m; sourceTree = "<group>"; };
-		E1B45D4F19BBD4B500266893 /* MenuManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuManagerViewController.h; sourceTree = "<group>"; };
-		E1B45D5019BBD4B500266893 /* MenuManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuManagerViewController.m; sourceTree = "<group>"; };
 		E1B45D5219BBD56100266893 /* RightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenuViewController.h; sourceTree = "<group>"; };
 		E1B45D5319BBD56100266893 /* RightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenuViewController.m; sourceTree = "<group>"; };
 		E1B45D5B19BBD6D500266893 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		2618D66B19BEAA2A009BBFBC /* NFLImages */ = {
 			isa = PBXGroup;
 			children = (
+				268DFFFB19BF4F9700D13607 /* logoNFL.png */,
 				2618D66C19BEAA2A009BBFBC /* 49ers.png */,
 				2618D66D19BEAA2A009BBFBC /* broncos.png */,
 				2618D66E19BEAA2A009BBFBC /* colts.png */,
@@ -272,8 +275,8 @@
 				E14E30DC19BBCCB200F6693A /* ViewController.m */,
 				E1B45D4919BBD3BD00266893 /* YouTubeWebView.h */,
 				E1B45D4A19BBD3BD00266893 /* YouTubeWebView.m */,
-				E1B45D4F19BBD4B500266893 /* MenuManagerViewController.h */,
-				E1B45D5019BBD4B500266893 /* MenuManagerViewController.m */,
+				268DFFF819BF484500D13607 /* MenusManager.h */,
+				268DFFF919BF484500D13607 /* MenusManager.m */,
 			);
 			name = Center;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				E1B45D6419BBE3A600266893 /* Players.plist in Resources */,
 				E1B45D6219BBD77300266893 /* Games.plist in Resources */,
 				E14E30CE19BBCCB200F6693A /* InfoPlist.strings in Resources */,
+				268DFFFC19BF4F9700D13607 /* logoNFL.png in Resources */,
 				2618D67A19BEAA2A009BBFBC /* falcons.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,10 +393,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1B45D5419BBD56100266893 /* RightMenuViewController.m in Sources */,
-				E1B45D5119BBD4B500266893 /* MenuManagerViewController.m in Sources */,
 				E1B45D6D19BD592800266893 /* Game.m in Sources */,
 				2618D68219BEACD8009BBFBC /* GamesManager.m in Sources */,
 				E14E30DD19BBCCB200F6693A /* ViewController.m in Sources */,
+				268DFFFA19BF484500D13607 /* MenusManager.m in Sources */,
 				E1B45D6019BBD6E800266893 /* MyPlayerViewController.m in Sources */,
 				2618D66A19BE5AAD009BBFBC /* NFLGameTableViewCell.m in Sources */,
 				E1B45D6719BD58A200266893 /* Player.m in Sources */,
