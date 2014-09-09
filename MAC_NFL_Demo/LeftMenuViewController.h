@@ -11,4 +11,11 @@
 @interface LeftMenuViewController : UITableViewController
 
 @property (nonatomic, retain) NSMutableArray* games;
+@property (nonatomic,strong) id delegate;
+
+@end
+
+@protocol LeftMenuDelegate <NSObject>
+@required
+- (void) selectedGame:(Game*)game;
 @end

@@ -4,33 +4,6 @@
 <array>
 	<dict>
 		<key>statusTitle</key>
-		<string></string>
-		<key>localTeamImage</key>
-		<string></string>
-		<key>localTeamScore</key>
-		<string></string>
-		<key>visitorTeamImage</key>
-		<string></string>
-		<key>visitorTeamScore</key>
-		<string></string>
-		<key>youTubeLinkURL</key>
-		<string></string>
-		<key>stats</key>
-		<dict>
-			<key>first</key>
-			<string></string>
-			<key>third</key>
-			<string></string>
-			<key>rushingYards</key>
-			<string></string>
-			<key>pushingYards</key>
-			<string></string>
-			<key>interceptionYards</key>
-			<string></string>
-		</dict>
-	</dict>
-	<dict>
-		<key>statusTitle</key>
 		<string>3RD 8:50</string>
 		<key>localTeamImage</key>
 		<string>packers.png</string>
@@ -41,7 +14,7 @@
 		<key>visitorTeamScore</key>
 		<string>12</string>
 		<key>youTubeLinkURL</key>
-		<string></string>
+		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
 		<key>stats</key>
 		<dict>
 			<key>first</key>
@@ -68,7 +41,7 @@
 		<key>visitorTeamScore</key>
 		<string>24</string>
 		<key>youTubeLinkURL</key>
-		<string></string>
+		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
 		<key>stats</key>
 		<dict>
 			<key>first</key>
@@ -87,15 +60,15 @@
 		<key>statusTitle</key>
 		<string>3RD 8:50</string>
 		<key>localTeamImage</key>
-		<string>packers.png</string>
+		<string>titans.png</string>
 		<key>localTeamScore</key>
-		<string>3</string>
+		<string>21</string>
 		<key>visitorTeamImage</key>
-		<string>cowboys.png</string>
+		<string>broncos.png</string>
 		<key>visitorTeamScore</key>
-		<string>12</string>
+		<string>16</string>
 		<key>youTubeLinkURL</key>
-		<string></string>
+		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
 		<key>stats</key>
 		<dict>
 			<key>first</key>
@@ -114,13 +87,90 @@
 		<key>statusTitle</key>
 		<string>3RD 8:50</string>
 		<key>localTeamImage</key>
-		<string>49ers.png</string>
+		<string>colts.png</string>
 		<key>localTeamScore</key>
-		<string>35</string>
+		<string>0</string>
 		<key>visitorTeamImage</key>
-		<string>raiders.png</string>
+		<string>bengals.png</string>
 		<key>visitorTeamScore</key>
-		<string>24</string>
+		<string>0</string>
+		<key>youTubeLinkURL</key>
+		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
+		<key>stats</key>
+		<dict>
+			<key>first</key>
+			<string></string>
+			<key>third</key>
+			<string></string>
+			<key>rushingYards</key>
+			<string></string>
+			<key>pushingYards</key>
+			<string></string>
+			<key>interceptionYards</key>
+			<string></string>
+		</dict>
+	</dict>
+	<dict>
+		<key>statusTitle</key>
+		<string>3RD 8:50</string>
+		<key>localTeamImage</key>
+		<string>seahawks.png</string>
+		<key>localTeamScore</key>
+		<string>7</string>
+		<key>visitorTeamImage</key>
+		<string>49ers.png</string>
+		<key>visitorTeamScore</key>
+		<string>9</string>
+		<key>youTubeLinkURL</key>
+		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
+		<key>stats</key>
+		<dict>
+			<key>first</key>
+			<string></string>
+			<key>third</key>
+			<string></string>
+			<key>rushingYards</key>
+			<string></string>
+			<key>pushingYards</key>
+			<string></string>
+			<key>interceptionYards</key>
+			<string></string>
+		</dict>
+	</dict>
+	<dict>
+		<key>statusTitle</key>
+		<string>4:05 PM</string>
+		<key>localTeamImage</key>
+		<string>jets.png</string>
+		<key>localTeamScore</key>
+		<string></string>
+		<key>visitorTeamImage</key>
+		<string>bills.png</string>
+		<key>youTubeLinkURL</key>
+		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
+		<key>stats</key>
+		<dict>
+			<key>first</key>
+			<string></string>
+			<key>third</key>
+			<string></string>
+			<key>rushingYards</key>
+			<string></string>
+			<key>pushingYards</key>
+			<string></string>
+			<key>interceptionYards</key>
+			<string></string>
+		</dict>
+	</dict>
+	<dict>
+		<key>statusTitle</key>
+		<string>4:05 PM</string>
+		<key>localTeamImage</key>
+		<string>ravens.png</string>
+		<key>localTeamScore</key>
+		<string></string>
+		<key>visitorTeamImage</key>
+		<string>bucaneers.png</string>
 		<key>youTubeLinkURL</key>
 		<string></string>
 		<key>stats</key>

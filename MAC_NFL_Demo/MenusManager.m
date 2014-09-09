@@ -61,6 +61,7 @@
     self.leftViewController =  [self.parentViewController.storyboard instantiateViewControllerWithIdentifier:@"LeftMenuViewController"];
     self.leftViewController.view.frame = CGRectMake(-kMenuWidth, kNavBarHeight, kMenuWidth, kScreenHeight-kNavBarHeight);
     [self addChildViewController:self.leftViewController];
+    self.leftViewController.delegate = self.parentViewController;
     [UIView animateWithDuration:kAnimationDuration animations:^
     {
         self.leftViewController.view.frame =CGRectMake(0, kNavBarHeight, kMenuWidth, kScreenHeight-kNavBarHeight);
