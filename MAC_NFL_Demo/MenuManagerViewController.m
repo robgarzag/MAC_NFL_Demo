@@ -8,6 +8,11 @@
 
 #import "MenuManagerViewController.h"
 
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kNavBarHeight 64
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kMenuWidth 250
+#define kAnimationDuration 0.4
 @interface MenuManagerViewController ()
 
 @end
@@ -53,18 +58,19 @@
         return;
     }
     self.leftViewController =  [self.parentViewController.storyboard instantiateViewControllerWithIdentifier:@"LeftMenuViewController"];
-    self.leftViewController.view.frame = CGRectMake(-250, 64, 250, [UIScreen mainScreen].bounds.size.height);
+    self.leftViewController.view.frame = CGRectMake(-kMenuWidth, kNavBarHeight, kMenuWidth, kScreenHeight-kNavBarHeight);
     [self addChildViewController:self.leftViewController];
-    [UIView animateWithDuration:0.4 animations:^{
-        self.leftViewController.view.frame =CGRectMake(0, 64, 250, [UIScreen mainScreen].bounds.size.height);
+    [UIView animateWithDuration:kAnimationDuration animations:^
+    {
+        self.leftViewController.view.frame =CGRectMake(0, kNavBarHeight, kMenuWidth, kScreenHeight-kNavBarHeight);
     }];
 }
 
 -(void) hideLeftMenu
 {
-    [UIView animateWithDuration:0.4 animations:^
+    [UIView animateWithDuration:kAnimationDuration animations:^
     {
-        self.leftViewController.view.frame =CGRectMake(-250, 64, 250, [UIScreen mainScreen].bounds.size.height);
+        self.leftViewController.view.frame =CGRectMake(-kMenuWidth, kNavBarHeight, kMenuWidth, kScreenHeight-kNavBarHeight);
     } completion:^(BOOL finished)
     {
            [self removeChildViewController:self.leftViewController];
@@ -84,20 +90,20 @@
         return;
     }
     self.rightViewController =  [self.parentViewController.storyboard instantiateViewControllerWithIdentifier:@"RightMenuViewController"];
-    self.rightViewController.view.frame = CGRectMake([UIScreen mainScreen].bounds.size.width, 64, 250, [UIScreen mainScreen].bounds.size.height);
+    self.rightViewController.view.frame = CGRectMake(kScreenWidth, kNavBarHeight, kMenuWidth, kScreenHeight);
     [self addChildViewController:self.rightViewController];
-    [UIView animateWithDuration:0.4 animations:^
+    [UIView animateWithDuration:kAnimationDuration animations:^
     {
-        self.rightViewController.view.frame = CGRectMake([UIScreen mainScreen].bounds.size.width -250, 64, 250, [UIScreen mainScreen].bounds.size.height);
+        self.rightViewController.view.frame = CGRectMake(kScreenWidth -kMenuWidth,kNavBarHeight, kMenuWidth, kScreenHeight-kNavBarHeight);
     }];
     [self addChildViewController:self.rightViewController];
 }
 
 -(void) hideRightMenu
 {
-    [UIView animateWithDuration:0.4 animations:^
+    [UIView animateWithDuration:kAnimationDuration animations:^
      {
-        self.rightViewController.view.frame = CGRectMake([UIScreen mainScreen].bounds.size.width, 64, 250, [UIScreen mainScreen].bounds.size.height);
+        self.rightViewController.view.frame = CGRectMake(kScreenWidth, kNavBarHeight, kMenuWidth, kScreenHeight-kNavBarHeight);
      } completion:^(BOOL finished)
      {
          [self removeChildViewController:self.rightViewController];
