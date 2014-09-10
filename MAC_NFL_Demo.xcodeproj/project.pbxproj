@@ -28,6 +28,8 @@
 		268D000A19BF9BA300D13607 /* bengals.png in Resources */ = {isa = PBXBuildFile; fileRef = 268D000719BF9BA300D13607 /* bengals.png */; };
 		268D000B19BF9BA300D13607 /* bucaneers.png in Resources */ = {isa = PBXBuildFile; fileRef = 268D000819BF9BA300D13607 /* bucaneers.png */; };
 		268D000C19BF9BA300D13607 /* ravens.png in Resources */ = {isa = PBXBuildFile; fileRef = 268D000919BF9BA300D13607 /* ravens.png */; };
+		268D001519BFBF1100D13607 /* titans.png in Resources */ = {isa = PBXBuildFile; fileRef = 268D001419BFBF1100D13607 /* titans.png */; };
+		268D001B19C0D48600D13607 /* StatsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268D001A19C0D48600D13607 /* StatsTableViewController.m */; };
 		268DFFFA19BF484500D13607 /* MenusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DFFF919BF484500D13607 /* MenusManager.m */; };
 		268DFFFC19BF4F9700D13607 /* logoNFL.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DFFFB19BF4F9700D13607 /* logoNFL.png */; };
 		268DFFFE19BF8FEC00D13607 /* DirecTV_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DFFFD19BF8FEC00D13607 /* DirecTV_logo.png */; };
@@ -48,7 +50,6 @@
 		E14E30F219BBCCB200F6693A /* MAC_NFL_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E14E30F119BBCCB200F6693A /* MAC_NFL_DemoTests.m */; };
 		E1B45D4B19BBD3BD00266893 /* YouTubeWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D4A19BBD3BD00266893 /* YouTubeWebView.m */; };
 		E1B45D5419BBD56100266893 /* RightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D5319BBD56100266893 /* RightMenuViewController.m */; };
-		E1B45D5D19BBD6D500266893 /* StatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D5C19BBD6D500266893 /* StatsViewController.m */; };
 		E1B45D6019BBD6E800266893 /* MyPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D5F19BBD6E800266893 /* MyPlayerViewController.m */; };
 		E1B45D6219BBD77300266893 /* Games.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1B45D6119BBD77300266893 /* Games.plist */; };
 		E1B45D6419BBE3A600266893 /* Players.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1B45D6319BBE3A600266893 /* Players.plist */; };
@@ -91,6 +92,9 @@
 		268D000719BF9BA300D13607 /* bengals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bengals.png; sourceTree = "<group>"; };
 		268D000819BF9BA300D13607 /* bucaneers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bucaneers.png; sourceTree = "<group>"; };
 		268D000919BF9BA300D13607 /* ravens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ravens.png; sourceTree = "<group>"; };
+		268D001419BFBF1100D13607 /* titans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titans.png; sourceTree = "<group>"; };
+		268D001919C0D48600D13607 /* StatsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsTableViewController.h; sourceTree = "<group>"; };
+		268D001A19C0D48600D13607 /* StatsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsTableViewController.m; sourceTree = "<group>"; };
 		268DFFF819BF484500D13607 /* MenusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenusManager.h; sourceTree = "<group>"; };
 		268DFFF919BF484500D13607 /* MenusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenusManager.m; sourceTree = "<group>"; };
 		268DFFFB19BF4F9700D13607 /* logoNFL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoNFL.png; sourceTree = "<group>"; };
@@ -120,8 +124,6 @@
 		E1B45D4A19BBD3BD00266893 /* YouTubeWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeWebView.m; sourceTree = "<group>"; };
 		E1B45D5219BBD56100266893 /* RightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenuViewController.h; sourceTree = "<group>"; };
 		E1B45D5319BBD56100266893 /* RightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenuViewController.m; sourceTree = "<group>"; };
-		E1B45D5B19BBD6D500266893 /* StatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsViewController.h; sourceTree = "<group>"; };
-		E1B45D5C19BBD6D500266893 /* StatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsViewController.m; sourceTree = "<group>"; };
 		E1B45D5E19BBD6E800266893 /* MyPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlayerViewController.h; sourceTree = "<group>"; };
 		E1B45D5F19BBD6E800266893 /* MyPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlayerViewController.m; sourceTree = "<group>"; };
 		E1B45D6119BBD77300266893 /* Games.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Games.plist; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				2618D67319BEAA2A009BBFBC /* raiders.png */,
 				2618D67419BEAA2A009BBFBC /* saints.png */,
 				2618D67519BEAA2A009BBFBC /* seahawks.png */,
+				268D001419BFBF1100D13607 /* titans.png */,
 			);
 			path = NFLImages;
 			sourceTree = "<group>";
@@ -279,10 +282,10 @@
 		E1B45D4D19BBD3DA00266893 /* Right Menu */ = {
 			isa = PBXGroup;
 			children = (
+				268D001919C0D48600D13607 /* StatsTableViewController.h */,
+				268D001A19C0D48600D13607 /* StatsTableViewController.m */,
 				E1B45D5219BBD56100266893 /* RightMenuViewController.h */,
 				E1B45D5319BBD56100266893 /* RightMenuViewController.m */,
-				E1B45D5B19BBD6D500266893 /* StatsViewController.h */,
-				E1B45D5C19BBD6D500266893 /* StatsViewController.m */,
 				E1B45D5E19BBD6E800266893 /* MyPlayerViewController.h */,
 				E1B45D5F19BBD6E800266893 /* MyPlayerViewController.m */,
 				E1B45D6319BBE3A600266893 /* Players.plist */,
@@ -393,6 +396,7 @@
 				268D000C19BF9BA300D13607 /* ravens.png in Resources */,
 				E14E30DF19BBCCB200F6693A /* Images.xcassets in Resources */,
 				E14E30D719BBCCB200F6693A /* Main_iPhone.storyboard in Resources */,
+				268D001519BFBF1100D13607 /* titans.png in Resources */,
 				2618D67B19BEAA2A009BBFBC /* jets.png in Resources */,
 				268D000019BF925200D13607 /* nfl_sunday_ticket.png in Resources */,
 				2618D67619BEAA2A009BBFBC /* 49ers.png in Resources */,
@@ -433,9 +437,9 @@
 				2618D66A19BE5AAD009BBFBC /* NFLGameTableViewCell.m in Sources */,
 				E1B45D6719BD58A200266893 /* Player.m in Sources */,
 				E1B45D4B19BBD3BD00266893 /* YouTubeWebView.m in Sources */,
+				268D001B19C0D48600D13607 /* StatsTableViewController.m in Sources */,
 				2653A29019BDE213005628E0 /* GameStats.m in Sources */,
 				E14E30D419BBCCB200F6693A /* AppDelegate.m in Sources */,
-				E1B45D5D19BBD6D500266893 /* StatsViewController.m in Sources */,
 				2653A29319BE548B005628E0 /* LeftMenuViewController.m in Sources */,
 				E14E30D019BBCCB200F6693A /* main.m in Sources */,
 			);

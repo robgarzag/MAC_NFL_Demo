@@ -16,4 +16,11 @@
 @property (nonatomic, strong) MenusManager* menuManager;
 @property (nonatomic, weak) IBOutlet UINavigationBar* navBar;
 @property (nonatomic, weak) IBOutlet UINavigationItem* navItem;
+
+//NOW SELECTED
+@property (nonatomic,weak) IBOutlet UILabel* localTeamScoreLbl;
+@property (nonatomic,weak) IBOutlet UILabel* visitorTeamScoreLbl;
+@property (nonatomic,weak) IBOutlet UIImageView* localTeamImg;
+@property (nonatomic,weak) IBOutlet UIImageView* visitorTeamImg;
+
 @end

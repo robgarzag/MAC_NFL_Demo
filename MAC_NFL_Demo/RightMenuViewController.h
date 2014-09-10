@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Game.h"
 
 @interface RightMenuViewController : UIViewController
 
+//@property (nonatomic, strong) Game* selectedGame;
 @end

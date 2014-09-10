@@ -13,11 +13,36 @@
 @end
 
 @implementation ViewController
+//Now Selected
+
+-(void) cleanUI
+{
+    self.localTeamScoreLbl.text = @"";
+    self.visitorTeamScoreLbl.text = @"";
+    self.visitorTeamImg.image = nil;
+    self.localTeamImg.image = nil;
+}
+-(void) fillWithGame:(Game*)game
+{
+    [self cleanUI];
+    if (game.localTeamScore)
+        self.localTeamScoreLbl.text = game.localTeamScore;
+    
+    if (game.visitorTeamScore)
+        self.visitorTeamScoreLbl.text = game.visitorTeamScore;
+    
+    if (game.visitorTeamImage)
+        self.visitorTeamImg.image = [UIImage imageNamed:game.visitorTeamImage];
+    
+    if (game.localTeamImage)
+        self.localTeamImg.image = [UIImage imageNamed:game.localTeamImage];
+}
 
 //@protocol LeftMenuDelegate <NSObject>
 - (void) selectedGame:(Game*)game
 {
     [self.webview setupWithYouTubeURL:game.youTubeLinkURL];
+    [self fillWithGame:game];
     [self.menuManager hideLeftMenu];
 }
 
