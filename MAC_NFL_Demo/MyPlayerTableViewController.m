@@ -94,6 +94,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NFLGameStatsTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"statsCell" forIndexPath:indexPath];
+    UIView* backgroundView = [[UIView alloc] initWithFrame:cell.frame];
+    [backgroundView setBackgroundColor:[UIColor grayColor]];
+    cell.selectedBackgroundView = backgroundView;
+    
     Player* player= [self.players objectAtIndex:indexPath.row];
     cell.statName.text = player.name;
     [cell fillWithTeam1Stats:player.team andTeam2Stats:player.position];

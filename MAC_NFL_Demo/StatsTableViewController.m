@@ -86,6 +86,9 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NFLGameStatsTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"statsCell" forIndexPath:indexPath];
+    UIView* backgroundView = [[UIView alloc] initWithFrame:cell.frame];
+    [backgroundView setBackgroundColor:[UIColor grayColor]];
+    cell.selectedBackgroundView = backgroundView;
     switch (indexPath.row)
     {
         case 0:
