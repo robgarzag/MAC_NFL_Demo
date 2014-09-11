@@ -9,11 +9,35 @@
 #import "RightMenuViewController.h"
 #import "ViewController.h"
 
+#define kIndexStats 0
+#define kIndexMyPlayers 1
+
 @interface RightMenuViewController ()
 
 @end
 
 @implementation RightMenuViewController
+
+
+- (IBAction)segmentedControlValueChanged:(UISegmentedControl *)sender
+{
+    if (sender.selectedSegmentIndex == kIndexMyPlayers)
+    {
+        [UIView animateWithDuration:0.2 animations:^
+         {
+             [self.statsViewController.view setAlpha:0];
+             [self.playersViewController.view setAlpha:1];
+         }];
+    }
+    else if (sender.selectedSegmentIndex == kIndexStats)
+    {
+        [UIView animateWithDuration:0.2 animations:^
+        {
+            [self.statsViewController.view setAlpha:1];
+            [self.playersViewController.view setAlpha:0];
+        }];
+    }
+}
 
 -(void) addChildViewControllerFromSwitch:(UIViewController*) childController
 {
@@ -52,6 +76,13 @@
     ViewController* parentViewController= (ViewController*) self.mainViewController;
     self.statsViewController.selectedGame = [parentViewController selectedGame];
     [self addChildViewControllerFromSwitch:self.statsViewController];
+    
+    
+    self.playersViewController =  [self.storyboard instantiateViewControllerWithIdentifier:@"MyPlayerTableViewController"];
+    self.playersViewController.view.alpha =0;
+    [self addChildViewControllerFromSwitch:self.playersViewController];
+
+    
     // Do any additional setup after loading the view.
 }
 

@@ -12,7 +12,7 @@
 
 -(id)initWithDictionary:(NSDictionary*)dictionary
 {
-    self = [[GameStats alloc] init];
+    self = [super init];
     if (self)
     {
         self.first = [dictionary objectForKey:@"first"];

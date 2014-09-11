@@ -34,6 +34,8 @@
 		268DFFFA19BF484500D13607 /* MenusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DFFF919BF484500D13607 /* MenusManager.m */; };
 		268DFFFC19BF4F9700D13607 /* logoNFL.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DFFFB19BF4F9700D13607 /* logoNFL.png */; };
 		268DFFFE19BF8FEC00D13607 /* DirecTV_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DFFFD19BF8FEC00D13607 /* DirecTV_logo.png */; };
+		26F4156A19C1F2C900FE4EF8 /* PlayersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4156919C1F2C800FE4EF8 /* PlayersManager.m */; };
+		26F4156D19C1F94300FE4EF8 /* MyPlayerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F4156C19C1F94300FE4EF8 /* MyPlayerTableViewController.m */; };
 		E14E30C419BBCCB200F6693A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14E30C319BBCCB200F6693A /* Foundation.framework */; };
 		E14E30C619BBCCB200F6693A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14E30C519BBCCB200F6693A /* CoreGraphics.framework */; };
 		E14E30C819BBCCB200F6693A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14E30C719BBCCB200F6693A /* UIKit.framework */; };
@@ -51,7 +53,6 @@
 		E14E30F219BBCCB200F6693A /* MAC_NFL_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E14E30F119BBCCB200F6693A /* MAC_NFL_DemoTests.m */; };
 		E1B45D4B19BBD3BD00266893 /* YouTubeWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D4A19BBD3BD00266893 /* YouTubeWebView.m */; };
 		E1B45D5419BBD56100266893 /* RightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D5319BBD56100266893 /* RightMenuViewController.m */; };
-		E1B45D6019BBD6E800266893 /* MyPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D5F19BBD6E800266893 /* MyPlayerViewController.m */; };
 		E1B45D6219BBD77300266893 /* Games.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1B45D6119BBD77300266893 /* Games.plist */; };
 		E1B45D6419BBE3A600266893 /* Players.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1B45D6319BBE3A600266893 /* Players.plist */; };
 		E1B45D6719BD58A200266893 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B45D6619BD58A200266893 /* Player.m */; };
@@ -103,6 +104,10 @@
 		268DFFFB19BF4F9700D13607 /* logoNFL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoNFL.png; sourceTree = "<group>"; };
 		268DFFFD19BF8FEC00D13607 /* DirecTV_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DirecTV_logo.png; sourceTree = "<group>"; };
 		268DFFFF19BF925200D13607 /* nfl_sunday_ticket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nfl_sunday_ticket.png; sourceTree = "<group>"; };
+		26F4156819C1F2C800FE4EF8 /* PlayersManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayersManager.h; sourceTree = "<group>"; };
+		26F4156919C1F2C800FE4EF8 /* PlayersManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersManager.m; sourceTree = "<group>"; };
+		26F4156B19C1F94300FE4EF8 /* MyPlayerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlayerTableViewController.h; sourceTree = "<group>"; };
+		26F4156C19C1F94300FE4EF8 /* MyPlayerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlayerTableViewController.m; sourceTree = "<group>"; };
 		E14E30C019BBCCB200F6693A /* MAC_NFL_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAC_NFL_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14E30C319BBCCB200F6693A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E14E30C519BBCCB200F6693A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -127,8 +132,6 @@
 		E1B45D4A19BBD3BD00266893 /* YouTubeWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeWebView.m; sourceTree = "<group>"; };
 		E1B45D5219BBD56100266893 /* RightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenuViewController.h; sourceTree = "<group>"; };
 		E1B45D5319BBD56100266893 /* RightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenuViewController.m; sourceTree = "<group>"; };
-		E1B45D5E19BBD6E800266893 /* MyPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlayerViewController.h; sourceTree = "<group>"; };
-		E1B45D5F19BBD6E800266893 /* MyPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlayerViewController.m; sourceTree = "<group>"; };
 		E1B45D6119BBD77300266893 /* Games.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Games.plist; sourceTree = "<group>"; };
 		E1B45D6319BBE3A600266893 /* Players.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Players.plist; sourceTree = "<group>"; };
 		E1B45D6519BD58A200266893 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
@@ -289,13 +292,15 @@
 				268D001A19C0D48600D13607 /* StatsTableViewController.m */,
 				E1B45D5219BBD56100266893 /* RightMenuViewController.h */,
 				E1B45D5319BBD56100266893 /* RightMenuViewController.m */,
-				E1B45D5E19BBD6E800266893 /* MyPlayerViewController.h */,
-				E1B45D5F19BBD6E800266893 /* MyPlayerViewController.m */,
 				E1B45D6319BBE3A600266893 /* Players.plist */,
 				E1B45D6519BD58A200266893 /* Player.h */,
 				E1B45D6619BD58A200266893 /* Player.m */,
 				268D001C19C101B200D13607 /* NFLGameStatsTableViewCell.h */,
 				268D001D19C101B200D13607 /* NFLGameStatsTableViewCell.m */,
+				26F4156819C1F2C800FE4EF8 /* PlayersManager.h */,
+				26F4156919C1F2C800FE4EF8 /* PlayersManager.m */,
+				26F4156B19C1F94300FE4EF8 /* MyPlayerTableViewController.h */,
+				26F4156C19C1F94300FE4EF8 /* MyPlayerTableViewController.m */,
 			);
 			name = "Right Menu";
 			sourceTree = "<group>";
@@ -435,11 +440,12 @@
 			files = (
 				268D001E19C101B200D13607 /* NFLGameStatsTableViewCell.m in Sources */,
 				E1B45D5419BBD56100266893 /* RightMenuViewController.m in Sources */,
+				26F4156D19C1F94300FE4EF8 /* MyPlayerTableViewController.m in Sources */,
 				E1B45D6D19BD592800266893 /* Game.m in Sources */,
 				2618D68219BEACD8009BBFBC /* GamesManager.m in Sources */,
 				E14E30DD19BBCCB200F6693A /* ViewController.m in Sources */,
 				268DFFFA19BF484500D13607 /* MenusManager.m in Sources */,
-				E1B45D6019BBD6E800266893 /* MyPlayerViewController.m in Sources */,
+				26F4156A19C1F2C900FE4EF8 /* PlayersManager.m in Sources */,
 				2618D66A19BE5AAD009BBFBC /* NFLGameTableViewCell.m in Sources */,
 				E1B45D6719BD58A200266893 /* Player.m in Sources */,
 				E1B45D4B19BBD3BD00266893 /* YouTubeWebView.m in Sources */,

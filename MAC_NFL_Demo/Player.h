@@ -14,4 +14,6 @@
 @property(nonatomic, strong) NSString* team;
 @property(nonatomic, strong) NSString* position;
 
+-(id)initWithDictionary:(NSDictionary*)dictionary;
+
 @end

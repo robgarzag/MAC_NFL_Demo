@@ -15,11 +15,6 @@
 
 @implementation StatsTableViewController
 
--(void)fillWithSelectedGame:(Game*) selectedGame
-{
-    
-}
-
 -(void)setSelectedGame:(Game *)selectedGame
 {
     _selectedGame = selectedGame;
@@ -51,13 +46,23 @@
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
-    UIView* view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth, 35)];
+    UIView* view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 35)];
     [view setBackgroundColor:[UIColor lightGrayColor]];
+    
+
+    UIImageView* team1ImageView =[[UIImageView alloc] initWithImage:[UIImage imageNamed:self.selectedGame.visitorTeamImage]];
+    team1ImageView.contentMode = UIViewContentModeScaleAspectFit;
+    team1ImageView.frame = CGRectMake(view.frame.size.width - 100,0 , 35, 35);
+    [view addSubview:team1ImageView];
+    
+    UIImageView* team2ImageView =[[UIImageView alloc] initWithImage:[UIImage imageNamed:self.selectedGame.localTeamImage]];
+    team2ImageView.contentMode = UIViewContentModeScaleAspectFit;
+    team2ImageView.frame = CGRectMake(view.frame.size.width - 50,0 , 35, 35);
+    [view addSubview:team2ImageView];
     return view;
 }
 

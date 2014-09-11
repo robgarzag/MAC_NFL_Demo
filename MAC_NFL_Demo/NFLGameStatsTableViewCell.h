@@ -2,7 +2,7 @@
 //  NFLGameStatsTableViewCell.h
 //  MAC_NFL_Demo
 //
-//  Created by David Garcia Chavez on 9/10/14.
+//  Created by MAC on 9/10/14.
 //  Copyright (c) 2014 RGG. All rights reserved.
 //
 

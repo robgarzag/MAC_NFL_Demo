@@ -4,11 +4,43 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string></string>
+		<string>Peyton Manning</string>
 		<key>team</key>
-		<string></string>
+		<string>DEN</string>
 		<key>position</key>
-		<string></string>
+		<string>QB</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Eli Manning</string>
+		<key>team</key>
+		<string>NYG</string>
+		<key>position</key>
+		<string>QB</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Philip Rivers</string>
+		<key>team</key>
+		<string>SD</string>
+		<key>position</key>
+		<string>QB</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Darren McFaden</string>
+		<key>team</key>
+		<string>OAK</string>
+		<key>position</key>
+		<string>RB</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Troy Polamalu</string>
+		<key>team</key>
+		<string>PIT</string>
+		<key>position</key>
+		<string>S</string>
 	</dict>
 </array>
 </plist>

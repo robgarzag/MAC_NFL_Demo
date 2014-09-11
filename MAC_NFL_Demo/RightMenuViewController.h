@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Game.h"
 #import "StatsTableViewController.h"
-#import "MyPlayerViewController.h"
+#import "MyPlayerTableViewController.h"
 #import "ViewController.h"
 @class ViewController;
 
@@ -17,5 +17,7 @@
 
 @property (nonatomic, weak) ViewController*  mainViewController;
 @property (nonatomic,weak) StatsTableViewController* statsViewController;
-@property (nonatomic,weak) MyPlayerViewController*  playersViewController;
+@property (nonatomic,weak) MyPlayerTableViewController*  playersViewController;
+
+@property (nonatomic,weak) IBOutlet UISegmentedControl* segmentedControl;
 @end

@@ -12,7 +12,7 @@
 
 -(id)initWithDictionary:(NSDictionary*)dictionary
 {
-    self = [[Game alloc] init];
+    self = [super init];
     if (self)
     {
         self.statusTitle = [dictionary objectForKey:@"statusTitle"];

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Game.h"
+#import "NFLGameStatsTableViewCell.H"
 
 @interface StatsTableViewController : UITableViewController
 

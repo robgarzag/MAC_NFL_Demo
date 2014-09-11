@@ -20,6 +20,9 @@
                                     <segment title="My Players"/>
                                 </segments>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="segmentedControlValueChanged:" destination="W13-iT-fWy" eventType="valueChanged" id="kWE-w9-8lQ"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="0.47938660259999999" green="0.77472919600000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -278,6 +281,70 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1565" y="-320"/>
+        </scene>
+        <!--My Player Table View Controller-->
+        <scene sceneID="tgr-nM-5g8">
+            <objects>
+                <tableViewController restorationIdentifier="MyPlayerTableViewController" storyboardIdentifier="MyPlayerTableViewController" id="IDv-OQ-jM1" customClass="MyPlayerTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Zah-HD-vO6">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="400"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.47938660259999999" green="0.77472919600000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <inset key="separatorInset" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="statsCell" id="MBz-5F-Aug" customClass="NFLGameStatsTableViewCell">
+                                <rect key="frame" x="0.0" y="55" width="240" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MBz-5F-Aug" id="0la-vI-bvn">
+                                    <rect key="frame" x="0.0" y="0.0" width="240" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" id="4dn-b2-bka">
+                                            <rect key="frame" x="11" y="11" width="117" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CzA-E8-d4l">
+                                            <rect key="frame" x="136" y="11" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NZC-Kg-Ccz">
+                                            <rect key="frame" x="186" y="11" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="statName" destination="4dn-b2-bka" id="vWU-DP-TSd"/>
+                                    <outlet property="team1Stats" destination="CzA-E8-d4l" id="EkM-se-pY4"/>
+                                    <outlet property="team2Stats" destination="NZC-Kg-Ccz" id="PZI-hK-0Zr"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="IDv-OQ-jM1" id="cnc-rA-M2w"/>
+                            <outlet property="delegate" destination="IDv-OQ-jM1" id="UVu-Kw-i5C"/>
+                        </connections>
+                    </tableView>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="240" height="400"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F81-XL-c2h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1020" y="-2043"/>
         </scene>
     </scenes>
     <resources>
