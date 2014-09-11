@@ -55,7 +55,7 @@
 
     self.selectedGame =    [[GamesManager gamesWithDictionaryArray:gamesDictionaryArray] objectAtIndex:0];
     
-    [self.webview setupWithYouTubeURL:@"http://www.youtube.com/embed/LWE79K2Ii-s"];
+    [self.webview setupWithYouTubeURL:self.selectedGame.youTubeLinkURL];
     
     self.menuManager = [[MenusManager alloc] initWithParentViewController:self];
     
