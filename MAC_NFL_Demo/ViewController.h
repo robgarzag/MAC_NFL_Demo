@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "YouTubeWebView.h"
 #import "MenusManager.h"
+#import "Game.h"
+@class MenusManager;
 
 @interface ViewController : UIViewController
 
 @property (nonatomic, weak) IBOutlet YouTubeWebView* webview;
-@property (nonatomic, strong) MenusManager* menuManager;
+@property (nonatomic,strong) Game* selectedGame;
+@property (nonatomic, strong)MenusManager* menuManager;
 @property (nonatomic, weak) IBOutlet UINavigationBar* navBar;
 @property (nonatomic, weak) IBOutlet UINavigationItem* navItem;
 

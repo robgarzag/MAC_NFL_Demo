@@ -17,7 +17,8 @@
 @property(nonatomic, strong) NSString* visitorTeamImage;
 @property(nonatomic, strong) NSString* visitorTeamScore;
 @property(nonatomic, strong) NSString* youTubeLinkURL;
-@property(nonatomic,strong) GameStats* stats;
+@property(nonatomic, strong) GameStats* localStats;
+@property(nonatomic, strong) GameStats* visitorStats;
 
 -(id)initWithDictionary:(NSDictionary*)dictionary;
 

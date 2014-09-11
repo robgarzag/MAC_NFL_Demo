@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "GamesManager.h"
+
 @interface LeftMenuViewController : UITableViewController
 
 @property (nonatomic, retain) NSMutableArray* games;
@@ -18,4 +19,5 @@
 @protocol LeftMenuDelegate <NSObject>
 @required
 - (void) selectedGame:(Game*)game;
+
 @end

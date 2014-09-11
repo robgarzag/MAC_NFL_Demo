@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "LeftMenuViewController.h"
 #import "RightMenuViewController.h"
+@class  RightMenuViewController;
 
 @interface MenusManager : NSObject
 

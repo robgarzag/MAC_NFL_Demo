@@ -15,18 +15,31 @@
 		<string>12</string>
 		<key>youTubeLinkURL</key>
 		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
-		<key>stats</key>
+		<key>statsLocalTeam</key>
 		<dict>
 			<key>first</key>
-			<string></string>
+			<string>18</string>
 			<key>third</key>
-			<string></string>
+			<string>(4,14)</string>
 			<key>rushingYards</key>
-			<string></string>
+			<string>110</string>
 			<key>pushingYards</key>
-			<string></string>
+			<string>207</string>
 			<key>interceptionYards</key>
-			<string></string>
+			<string>50</string>
+		</dict>
+		<key>statsVisitorTeam</key>
+		<dict>
+			<key>first</key>
+			<string>25</string>
+			<key>third</key>
+			<string>(4,14)</string>
+			<key>rushingYards</key>
+			<string>110</string>
+			<key>pushingYards</key>
+			<string>207</string>
+			<key>interceptionYards</key>
+			<string>99</string>
 		</dict>
 	</dict>
 	<dict>
@@ -42,18 +55,31 @@
 		<string>24</string>
 		<key>youTubeLinkURL</key>
 		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
-		<key>stats</key>
+		<key>statsLocalTeam</key>
 		<dict>
 			<key>first</key>
-			<string></string>
+			<string>18</string>
 			<key>third</key>
-			<string></string>
+			<string>(4,14)</string>
 			<key>rushingYards</key>
-			<string></string>
+			<string>110</string>
 			<key>pushingYards</key>
-			<string></string>
+			<string>207</string>
 			<key>interceptionYards</key>
-			<string></string>
+			<string>0</string>
+		</dict>
+		<key>statsVisitorTeam</key>
+		<dict>
+			<key>first</key>
+			<string>25</string>
+			<key>third</key>
+			<string>(4,14)</string>
+			<key>rushingYards</key>
+			<string>110</string>
+			<key>pushingYards</key>
+			<string>207</string>
+			<key>interceptionYards</key>
+			<string>0</string>
 		</dict>
 	</dict>
 	<dict>
@@ -69,18 +95,31 @@
 		<string>16</string>
 		<key>youTubeLinkURL</key>
 		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
-		<key>stats</key>
+		<key>statsLocalTeam</key>
 		<dict>
 			<key>first</key>
-			<string></string>
+			<string>18</string>
 			<key>third</key>
-			<string></string>
+			<string>(4,14)</string>
 			<key>rushingYards</key>
-			<string></string>
+			<string>110</string>
 			<key>pushingYards</key>
-			<string></string>
+			<string>207</string>
 			<key>interceptionYards</key>
-			<string></string>
+			<string>0</string>
+		</dict>
+		<key>statsVisitorTeam</key>
+		<dict>
+			<key>first</key>
+			<string>25</string>
+			<key>third</key>
+			<string>(4,14)</string>
+			<key>rushingYards</key>
+			<string>110</string>
+			<key>pushingYards</key>
+			<string>207</string>
+			<key>interceptionYards</key>
+			<string>0</string>
 		</dict>
 	</dict>
 	<dict>
@@ -96,18 +135,31 @@
 		<string>0</string>
 		<key>youTubeLinkURL</key>
 		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
-		<key>stats</key>
+		<key>statsLocalTeam</key>
 		<dict>
 			<key>first</key>
-			<string></string>
+			<string>18</string>
 			<key>third</key>
-			<string></string>
+			<string>(4,14)</string>
 			<key>rushingYards</key>
-			<string></string>
+			<string>110</string>
 			<key>pushingYards</key>
-			<string></string>
+			<string>207</string>
 			<key>interceptionYards</key>
-			<string></string>
+			<string>0</string>
+		</dict>
+		<key>statsVisitorTeam</key>
+		<dict>
+			<key>first</key>
+			<string>25</string>
+			<key>third</key>
+			<string>(4,14)</string>
+			<key>rushingYards</key>
+			<string>199</string>
+			<key>pushingYards</key>
+			<string>99</string>
+			<key>interceptionYards</key>
+			<string>1</string>
 		</dict>
 	</dict>
 	<dict>
@@ -123,18 +175,31 @@
 		<string>9</string>
 		<key>youTubeLinkURL</key>
 		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
-		<key>stats</key>
+		<key>statsLocalTeam</key>
 		<dict>
 			<key>first</key>
-			<string></string>
+			<string>18</string>
 			<key>third</key>
-			<string></string>
+			<string>(4,14)</string>
 			<key>rushingYards</key>
-			<string></string>
+			<string>110</string>
 			<key>pushingYards</key>
-			<string></string>
+			<string>207</string>
 			<key>interceptionYards</key>
-			<string></string>
+			<string>0</string>
+		</dict>
+		<key>statsVisitorTeam</key>
+		<dict>
+			<key>first</key>
+			<string>25</string>
+			<key>third</key>
+			<string>(4,14)</string>
+			<key>rushingYards</key>
+			<string>110</string>
+			<key>pushingYards</key>
+			<string>207</string>
+			<key>interceptionYards</key>
+			<string>0</string>
 		</dict>
 	</dict>
 	<dict>
@@ -148,18 +213,31 @@
 		<string>bills.png</string>
 		<key>youTubeLinkURL</key>
 		<string>http://www.youtube.com/embed/cMKS0s9r2Ro</string>
-		<key>stats</key>
+		<key>statsLocalTeam</key>
 		<dict>
 			<key>first</key>
-			<string></string>
+			<string>18</string>
 			<key>third</key>
-			<string></string>
+			<string>(4,14)</string>
 			<key>rushingYards</key>
-			<string></string>
+			<string>110</string>
 			<key>pushingYards</key>
-			<string></string>
+			<string>207</string>
 			<key>interceptionYards</key>
-			<string></string>
+			<string>0</string>
+		</dict>
+		<key>statsVisitorTeam</key>
+		<dict>
+			<key>first</key>
+			<string>25</string>
+			<key>third</key>
+			<string>(4,14)</string>
+			<key>rushingYards</key>
+			<string>110</string>
+			<key>pushingYards</key>
+			<string>207</string>
+			<key>interceptionYards</key>
+			<string>0</string>
 		</dict>
 	</dict>
 	<dict>
@@ -173,18 +251,31 @@
 		<string>bucaneers.png</string>
 		<key>youTubeLinkURL</key>
 		<string></string>
-		<key>stats</key>
+		<key>statsLocalTeam</key>
 		<dict>
 			<key>first</key>
-			<string></string>
+			<string>18</string>
 			<key>third</key>
-			<string></string>
+			<string>(4,14)</string>
 			<key>rushingYards</key>
-			<string></string>
+			<string>110</string>
 			<key>pushingYards</key>
-			<string></string>
+			<string>207</string>
 			<key>interceptionYards</key>
-			<string></string>
+			<string>0</string>
+		</dict>
+		<key>statsVisitorTeam</key>
+		<dict>
+			<key>first</key>
+			<string>25</string>
+			<key>third</key>
+			<string>(4,14)</string>
+			<key>rushingYards</key>
+			<string>110</string>
+			<key>pushingYards</key>
+			<string>207</string>
+			<key>interceptionYards</key>
+			<string>0</string>
 		</dict>
 	</dict>
 </array>

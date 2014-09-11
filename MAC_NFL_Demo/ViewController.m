@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "GamesManager.h"
 @interface ViewController ()
 
 @end
@@ -44,16 +44,20 @@
     [self.webview setupWithYouTubeURL:game.youTubeLinkURL];
     [self fillWithGame:game];
     [self.menuManager hideLeftMenu];
+    self.selectedGame = game;
 }
 
 // Do any additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSArray* gamesDictionaryArray = [NSArray arrayWithContentsOfURL :[[NSBundle mainBundle]URLForResource:@"Games" withExtension:@".plist" ]];
+
+    self.selectedGame =    [[GamesManager gamesWithDictionaryArray:gamesDictionaryArray] objectAtIndex:0];
+    
     [self.webview setupWithYouTubeURL:@"http://www.youtube.com/embed/LWE79K2Ii-s"];
     
     self.menuManager = [[MenusManager alloc] initWithParentViewController:self];
-
     
     [self.navItem setLeftBarButtonItem:[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self.menuManager action:@selector(openLeftMenu)]];
     

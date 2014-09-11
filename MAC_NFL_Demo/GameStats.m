@@ -16,7 +16,7 @@
     if (self)
     {
         self.first = [dictionary objectForKey:@"first"];
-        self.third = [dictionary objectForKey:@"first"];
+        self.third = [dictionary objectForKey:@"third"];
         self.rushingYards = [dictionary objectForKey:@"rushingYards"];
         self.pushingYards =[dictionary objectForKey:@"pushingYards"];
         self.interceptionYards =[dictionary objectForKey:@"interceptionYards"];

@@ -8,9 +8,8 @@
 
 #import "MenusManager.h"
 
-#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+
 #define kNavBarHeight 64
-#define kScreenHeight [UIScreen mainScreen].bounds.size.height
 #define kMenuWidth 250
 #define kAnimationDuration 0.2
 
@@ -91,7 +90,9 @@
         [self hideRightMenu];
         return;
     }
+
     self.rightViewController =  [self.parentViewController.storyboard instantiateViewControllerWithIdentifier:@"RightMenuViewController"];
+    self.rightViewController.mainViewController = (ViewController*)self.parentViewController;
     self.rightViewController.view.frame = CGRectMake(kScreenWidth, kNavBarHeight, kMenuWidth, kScreenHeight);
     [self addChildViewController:self.rightViewController];
     [UIView animateWithDuration:kAnimationDuration animations:^

@@ -21,7 +21,8 @@
         self.visitorTeamImage =[dictionary objectForKey:@"visitorTeamImage"];
         self.visitorTeamScore =[dictionary objectForKey:@"visitorTeamScore"];
         self.youTubeLinkURL =[dictionary objectForKey:@"youTubeLinkURL"];
-        self.stats = [[GameStats alloc] initWithDictionary:[dictionary objectForKey:@"stats"]];
+        self.localStats = [[GameStats alloc] initWithDictionary:[dictionary objectForKey:@"statsLocalTeam"]];
+        self.visitorStats = [[GameStats alloc] initWithDictionary:[dictionary objectForKey:@"statsVisitorTeam"]];
     }
     return self;
 }

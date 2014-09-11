@@ -11,7 +11,7 @@
 
 @interface StatsTableViewController : UITableViewController
 
-@property (nonatomic,assign) int selectedIndex;
-@property (nonatomic,strong) NSMutableArray* games;;
-
+@property (nonatomic, weak) Game* selectedGame;
+@property (nonatomic, weak) GameStats * visitorStats;
+@property (nonatomic, weak) GameStats * localStats;
 @end

@@ -30,6 +30,7 @@
 		268D000C19BF9BA300D13607 /* ravens.png in Resources */ = {isa = PBXBuildFile; fileRef = 268D000919BF9BA300D13607 /* ravens.png */; };
 		268D001519BFBF1100D13607 /* titans.png in Resources */ = {isa = PBXBuildFile; fileRef = 268D001419BFBF1100D13607 /* titans.png */; };
 		268D001B19C0D48600D13607 /* StatsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 268D001A19C0D48600D13607 /* StatsTableViewController.m */; };
+		268D001E19C101B200D13607 /* NFLGameStatsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 268D001D19C101B200D13607 /* NFLGameStatsTableViewCell.m */; };
 		268DFFFA19BF484500D13607 /* MenusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 268DFFF919BF484500D13607 /* MenusManager.m */; };
 		268DFFFC19BF4F9700D13607 /* logoNFL.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DFFFB19BF4F9700D13607 /* logoNFL.png */; };
 		268DFFFE19BF8FEC00D13607 /* DirecTV_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 268DFFFD19BF8FEC00D13607 /* DirecTV_logo.png */; };
@@ -95,6 +96,8 @@
 		268D001419BFBF1100D13607 /* titans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titans.png; sourceTree = "<group>"; };
 		268D001919C0D48600D13607 /* StatsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatsTableViewController.h; sourceTree = "<group>"; };
 		268D001A19C0D48600D13607 /* StatsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatsTableViewController.m; sourceTree = "<group>"; };
+		268D001C19C101B200D13607 /* NFLGameStatsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFLGameStatsTableViewCell.h; sourceTree = "<group>"; };
+		268D001D19C101B200D13607 /* NFLGameStatsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFLGameStatsTableViewCell.m; sourceTree = "<group>"; };
 		268DFFF819BF484500D13607 /* MenusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenusManager.h; sourceTree = "<group>"; };
 		268DFFF919BF484500D13607 /* MenusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenusManager.m; sourceTree = "<group>"; };
 		268DFFFB19BF4F9700D13607 /* logoNFL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoNFL.png; sourceTree = "<group>"; };
@@ -291,6 +294,8 @@
 				E1B45D6319BBE3A600266893 /* Players.plist */,
 				E1B45D6519BD58A200266893 /* Player.h */,
 				E1B45D6619BD58A200266893 /* Player.m */,
+				268D001C19C101B200D13607 /* NFLGameStatsTableViewCell.h */,
+				268D001D19C101B200D13607 /* NFLGameStatsTableViewCell.m */,
 			);
 			name = "Right Menu";
 			sourceTree = "<group>";
@@ -428,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				268D001E19C101B200D13607 /* NFLGameStatsTableViewCell.m in Sources */,
 				E1B45D5419BBD56100266893 /* RightMenuViewController.m in Sources */,
 				E1B45D6D19BD592800266893 /* Game.m in Sources */,
 				2618D68219BEACD8009BBFBC /* GamesManager.m in Sources */,
