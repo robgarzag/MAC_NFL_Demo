@@ -38,6 +38,8 @@
         self.localTeamImg.image = [UIImage imageNamed:game.localTeamImage];
 }
 
+#pragma mark - LeftMenuDelegate
+
 //@protocol LeftMenuDelegate <NSObject>
 - (void) selectedGame:(Game*)game
 {
@@ -62,6 +64,15 @@
     [self.navItem setLeftBarButtonItem:[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self.menuManager action:@selector(openLeftMenu)]];
     
     [self.navItem setRightBarButtonItem:[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self.menuManager action:@selector(openRightMenu)]];
+    
+    UIImageView* nflView =[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logoNFL.png"]];
+    nflView.contentMode = UIViewContentModeScaleAspectFit;
+    self.navItem.titleView = nflView;
+    CGRect frame = self.navItem.titleView.frame;
+    frame.size.width =50;
+    frame.size.height =50;
+    self.navItem.titleView.frame = frame;
+    
 }
 
 -(BOOL)shouldAutorotate

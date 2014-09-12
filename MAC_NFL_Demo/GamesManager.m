@@ -8,14 +8,16 @@
 
 #import "GamesManager.h"
 
+//GamesParser
 @implementation GamesManager
 
 +(NSMutableArray*) gamesWithDictionaryArray:(NSArray*) array
 {
     NSMutableArray * mutableArray = [[NSMutableArray alloc] init];
+    Game* game = nil;
     for (NSDictionary* dict in array)
     {
-        Game* game = [[Game alloc] initWithDictionary:dict];
+        game = [[Game alloc] initWithDictionary:dict];
         [mutableArray addObject:game];
     }
     return mutableArray;
@@ -31,6 +33,5 @@
     }
     return self;
 }
-
 
 @end
